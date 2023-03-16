@@ -13,11 +13,14 @@
 */
 function calcularMedia() {
   const nota1 = parseFloat(document.getElementById("nota1").value);
-  const note2 = parseFloat(document.getElementById("nota2").value);
-  const note3 = parseFloat(document.getElementById("nota3").value);
-  const note4 = parseFloat(document.getElementById("nota4").value);
+  const nota2 = parseFloat(document.getElementById("nota2").value);
+  const nota3 = parseFloat(document.getElementById("nota3").value);
+  const nota4 = parseFloat(document.getElementById("nota4").value);
 
-  let mensagem = "";
+  const resultadoSoma = (nota1 + nota2 + nota3 + nota4);
+  const resultado = resultadoSoma / 4;
+
+  let mensagem ="A média do aluno é " + resultado;
   // evite mexer no código acima!
 
 
